@@ -1,0 +1,1704 @@
+/*Desktop version website height and width*/
+body {                             
+  height: 3525px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  overflow: visible;
+  position: absolute;
+}
+
+/*Wraps around, is same height and width, changes on Mobile Version of site*/
+.wrapper {                            
+  height: 3525px;
+  width: 100%;
+  position: absolute; 
+  left: 0;
+  right: 0;
+  top: 0;
+  overflow: visible;
+} 
+
+/*Height and width of image on top of Desktop site*/
+.top {                                
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 555px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/*Wraps arond menu, for both Mobile and Desktop site*/  
+.menuwrap {
+  background-color: black;
+  opacity: .7;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 55px;
+  top: 500px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.menuwrap p { text-align: right; }
+ .toggle, [id^=drop] {
+ display: none;
+}
+
+/*Dropdown Menu for mobile site. Hidden on desktop*/
+.littleme {
+  z-index: 5000;
+  top: 0;
+  left: 90px;
+  right: 0;
+  text-align: right;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  display: none;
+}
+
+.littleme:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.littleme ul {
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+.littleme ul li {
+  margin: 0;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  background-color: black;
+  opacity: 1;
+}
+
+.littleme a {
+  text-align: center;
+  opacity: 1;
+  display: block;
+  background-color: #008080;
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 45px;
+  text-decoration: none;
+}
+
+.littleme li > a:after { content: ' +'; }
+
+.littleme li > a:only-child:after { content: ''; }
+
+/*This is used with the Java script in order to make 
+the Menu position Fixed on both Desktop and Mobile*/
+.fixed {
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+  opacity: .82;
+}
+
+/*Container Link for Logo Image*/
+#alm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 55px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+/*Defining container for Logo Image*/
+#alm2 {
+  height: 55px;
+  width: 90px;
+}
+
+/*General seperating lines*/
+hr {
+  color: #808080;
+  background-color: #808080;
+  width: 80%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  text-align: center;
+}
+
+#lineone {
+  position: absolute;
+  top: 720px;
+  text-align: center;
+}
+
+/*Desktop menu texts. Hidden on Mobile site.*/
+.texts {
+  position: relative;
+  list-style: none;
+  text-align: center;
+  top: 0px;
+  bottom: 0;
+  z-index: 1000;
+  outline: none;
+}
+
+.texts li {
+  display: inline-block;
+  position: relative;
+  outline: none;
+}
+
+.texts a {
+  color: #FFFFFF;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  transition: .5s;
+  font-weight: 5;
+  text-decoration: none;
+  padding: 20px 30px 23px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.texts a:hover:not(#log) {
+  background-color: black;
+  opacity: .9;
+  color: #008080;
+  border-radius: 5px;
+  outline: none;
+}
+
+/*Section holding Intro + Screen Repair and Pricing*/
+.phones {
+  position: absolute;
+  height: 1024px;
+  top: 507px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 6%;
+  overflow: visible;
+  text-decoration: none;
+}
+
+.phones  #services{
+  text-align: center;
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  top: 95px;
+  left: 0;
+  right: 0;
+  font-size: 55px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.phones  #servicestwo{
+  text-align: center;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 180px;
+  left: 0;
+  right: 0;
+  font-size: 33px;
+  font-weight: 150;
+  color: #008080;
+}
+
+/*First square of text*/
+.textsquare {
+  position: absolute;
+  left: 2%;
+  top: 280px;
+  right: 40%;
+  height: 500px;
+}
+
+/*Text style in textsquare*/
+.textsquare #under {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 0px;
+  left: 0;
+  right: 0;
+  font-size: 22px;
+  font-weight: 50;
+  line-height: 150%;
+  color: #000000;
+  text-align: justify;
+}
+
+/*First square with image. Hidden on mobile site*/
+#littlesquare {
+  position: absolute;
+  background-image: url('http://files.technobezz.com/files/uploads/2015/05/FMaWSLOJiioj3iKM.jpg');
+  right: 20px;
+  background-size: cover;
+  top: 285px;
+  height: 35%;
+  width: 35%;
+}
+
+.phones #broke {
+  text-align: center;
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  top: 790px;
+  left: 0;
+  right: 0;
+  font-size: 55px;
+  font-weight: 500;
+  color: #000000;
+}
+
+/*Section holding phone images + pricing. Bootstrap used here*/
+.container {
+  position: absolute;
+  top: 940px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  overflow: visible;
+ }
+ 
+ .container a:hover {
+  text-decoration: none;
+}
+ 
+.thumbnail {
+  position: relative;
+  background-color: transparent;
+  border-color: transparent;
+ }
+ 
+.col-md-4 {
+  text-align: center;
+  right: 0;
+ }
+ 
+/*Iphone image*/
+.thumbnail #iphone {
+  position: relative;
+  border-radius: 8px;
+  height: 400px;
+  width: 190px;
+  top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+ }
+
+/*Styles text for iPhone header*/
+.thumbnail #ph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-weight: 300;
+  line-height: 160%;
+  position: absolute;
+  text-align: center;
+  color: #008080;
+  text-decoration: none;
+} 
+
+/*Makes iPhone Header clickable*/
+#iph {
+  text-decoration: none;
+  color: #008080;
+}
+
+/*All the p(number) from here on style the text inside the iphone image*/
+.thumbnail #p1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #p2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -264px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #p3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -268px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #p4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -272px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #p5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -275px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #p6 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -278px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;
+  width: 200px;
+} 
+
+.thumbnail #p7 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -282px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #p8 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -286px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #p9 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -290px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+/*Styles text for Galaxys Header*/
+.thumbnail #s {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-weight: 300;
+  line-height: 160%;
+  position: absolute;
+  text-align: center;
+  color: #008080;  
+  text-decoration: none;
+} 
+
+/*Makes Galaxys header clickable*/
+#galxs {
+  color: #008080;
+  text-decoration: none;
+}
+
+/*Galaxys section phone image*/
+.thumbnail #galaxys {
+  position: relative;
+  top: 90px;
+  border-radius: 40px;
+  height: 400px;
+  width: 190px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+
+/*All the s(number) from here on style the text in GalaxyS image*/
+.thumbnail #s1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #s2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+}
+
+.thumbnail #s3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+}
+
+.thumbnail #s4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+}
+
+.thumbnail #s5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+}
+
+/*Styles text for GalaxyNote header*/
+.thumbnail #n {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-weight: 300;
+  position: absolute;
+  text-align: center;
+  color: #008080;  
+  text-decoration: none;
+} 
+
+/*Makes GalaxyNote header clickable*/
+#galxn {
+  color: #008080;
+  text-decoration: none;
+}
+
+/*Galaxy Note section phone image*/
+.thumbnail #galaxynote {
+  position: relative;
+  border-radius: 33px;
+  height: 400px;
+  width: 190px;
+  top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+
+/*All the n(number) from here on style the text inside the GalaxyNote Image*/
+.thumbnail #n1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #n2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #n3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #n4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+} 
+
+.thumbnail #n5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+}
+
+.thumbnail #n6 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  top: -260px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 100;
+  position: relative;
+  color: #FFFFFF;  
+  width: 200px;
+}
+
+/*Small div for text at the bottom of Phones section*/
+.checkser {
+  position: absolute;
+  top: 1978px;
+  height: 50px;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+/*Styles text in .checkser*/
+#please {
+  text-align: center;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 5px;
+  left: 0;
+  right: 0;
+  font-size: 30px;
+  font-weight: 300;
+  color: #008080;
+}
+
+/*Makes "SERVICES" clickable inside #please*/
+#insert {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #008080;
+  text-decoration: none;
+}
+
+
+#linetwo{
+  position: absolute;
+  top: 2060px;
+  text-align: center;
+}
+
+/*30Day Guarantee Section*/
+.theguaran {
+  position: absolute;
+  top: 2100px;
+  height: 500px;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+/*Styles 30Day Guarantee header Text*/
+#guaran {
+  text-align: center;
+  position: absolute;
+  top: 30px;
+  font-family: 'Oswald', sans-serif;
+  left: 0;
+  right: 0;
+  font-size: 55px;
+  font-weight: 500;
+  color: #000000;
+}
+
+/*Text box for Guarantee section*/
+.realguaran {
+  position: absolute;
+  top: 165px;
+  height: 500px;
+  left: 40%;
+  right: 20px;
+  text-align: justify;
+}
+
+/*Styles text in Guarantee Section*/
+#moreguaran {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 0px;
+  left: 0;
+  right: 0;
+  font-size: 22px;
+  font-weight: 50;
+  line-height: 150%;
+  color: #000000;
+  text-align: justify;
+}
+
+/*Picture for Guarantee Section. Hidden on Mobile.*/
+#picforguar {
+  position: absolute;
+  background-image: url('http://www.cellside.ca/wp-content/uploads/2015/11/Cell-phone-repairs.jpg');
+  left: 20px;
+  top: 175px;
+  background-size: cover;
+  height: 58%;
+  width: 35%;
+}
+
+#linethree {
+  position: absolute;
+  top: 2628px;
+  text-align: center;
+}
+
+/*Safety Section*/
+.safetysec {
+  position: absolute;
+  top: 2698px;
+  width: 100%;
+  height: 400px;
+}
+
+/*Styles Safety Section Header Text*/
+#safefirst {
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  font-family: 'Oswald', sans-serif;
+  left: 0;
+  right: 0;
+  font-size: 55px;
+  font-weight: 500;
+  color: #000000;
+}
+
+/*Section for Text in Safety Section*/
+#safetybox {
+  position: absolute;
+  left: 2%;
+  top: 135px;
+  right: 40%;
+  height: 500px;
+}
+
+/*Styles Text in #safetybox*/
+#safetext {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 0px;
+  left: 0;
+  right: 0;
+  font-size: 22px;
+  font-weight: 50;
+  line-height: 150%;
+  color: #000000;
+  text-align: justify;
+}
+
+/*Picture for Safety Section. Hidden on Mobile.*/
+#safepic {
+  position: absolute;
+  background-image: url('http://www.mgwirelessonline.com/uploads/7/1/3/4/7134168/6681975_orig.jpg');
+  right: 20px;
+  background-size: cover;
+  top: 135px;
+  height: 75%;
+  width: 35%;
+}
+
+#linefour {
+  position: absolute;
+  top: 3195px;
+  text-align: center;
+}
+
+#linefive{
+  position: absolute;
+  top: 3290px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 2px;
+}
+
+/*Safety wrapper for footer. Hidden on Mobile*/
+.jumbotron2 {
+  background-color: transparent;
+  background-position: center bottom;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  overflow: visible;
+  position: absolute;
+}
+
+/*From here to "Sunday" the texts were tediously arranged based on their #id. 
+I will use classes next time, but for now it is organized and contained.*/
+#copyr {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 38px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #008080;
+  z-index: 1000;
+}
+
+#botser {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -120px;
+  left: 127px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #008080;
+  z-index: 1000;
+}
+
+#iphoneserv {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -100px;
+  left: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#galaxsserv {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -85px;
+  left: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#galaxnserv {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -70px;
+  left: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#oneplusserv {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -55px;
+  left: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#lgserv {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -40px;
+  left: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#htcserv {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -25px;
+  left: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#nexusserv {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -10px;
+  left: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#hoursser{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -120px;
+  right: 155px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #008080;
+  z-index: 1000;
+}
+
+#monday {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -100px;
+  right: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#tuesday {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -85px;
+  right: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#wednesday {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -70px;
+  right: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#thursday {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -55px;
+  right: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#friday {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -40px;
+  right: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#saturday {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -25px;
+  right: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+#sunday {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: -10px;
+  right: 110px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 160%;
+  color: #000080;
+  z-index: 1000;
+}
+
+/*For Mobile Site. Reads width of monitor size and
+switches to mobile styling of site.*/
+@media all and (max-width: 1024px) {
+  /*Mobile version website height and width*/
+  body {
+    background-color: #f7f7f7;
+    overflow: visible;
+    height: 4035px;
+    width: 100%;
+    top: 0;
+  }
+  /*Wraps around, is same height and width, changes on Desktop Version of site*/
+  .wrapper {
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 4035px;
+    width: 100%;
+  }
+  
+  /*Height and width of image on top of Mobile site*/
+  .top {
+    position: absolute;
+    height: 200px;
+    top: 0;
+  }
+  
+  /*Wraps arond menu, for both Mobile and Desktop site*/  
+  .menuwrap {
+    transform: translate3d(0px,0px,0px);
+    position: absolute;
+    width: 100%;
+    overflow: visible;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    top: 200px;
+    height: 50px;
+    z-index: 6000;
+  }
+  
+  /*This is used with the Java script in order to make the Menu
+  positioning Fixed on both Desktop and Mobile*/
+  .fixed {
+    position: fixed;
+    overflow: visible;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 1;
+    z-index: 6000;
+  }
+  
+  /*Container/Link for Logo Image*/
+  #alm {
+    position: absolute;
+    height: 50px;
+    top: 0;
+    left: 0;
+  }
+  
+  /*Defining container for Logo Image*/
+  #alm2 {
+    height: 50px;
+    width: 90px;
+  }
+  
+  /*Hides the original texts from Desktop Version of Menu*/
+  .texts {
+    position: absolute;
+    display: none;
+  }
+  
+  /*Makes Mobile Version of Menu visible*/
+  .littleme {
+    display: initial;
+    left: 90px;
+    right: 0;
+    z-index: 7000;
+    height: 50px;
+    overflow: visible;
+    background-color: black;
+    opacity: 1;
+  }
+
+  .littleme { margin: 0; }
+
+  .toggle + a,
+   .othermenu { 
+     display: none; 
+   }
+
+  /*Used a Character Font to make the Menu Icon. 
+  It was the most effecient way to get to what I needed.
+  This styles the Menu Icon*/
+  .toggle {
+    display: block;
+    text-align: right;
+    background-color: black;
+    opacity: 1;
+    top: 3px;
+    position: relative;
+    right: 5px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 45px;
+    text-decoration: none;
+    font-family: 'Material Icons', sans-serif;
+    z-index: 7000;
+  }
+
+  /*Makes Menu Icon Site green after getting clicked*/
+  #drop:checked + label {
+    color: #008080;
+  }
+
+  /*Displays Dropdown Menu after Menu Icon is clicked*/
+  [id^=drop]:checked + label + ul {
+    display: block;
+  }
+
+  .littleme ul li {
+    display: block;
+    width: 100%;
+    z-index: 6000;
+    border: none;
+  }
+
+  /*Section holding Intro + Screen Repair and Pricing*/
+  .phones {
+    top: 290px;
+    left: 0;
+    right: 0;
+    height: 45px;
+    overflow: visible;
+    position: absolute;
+  }
+  
+  .phones #services {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    top: -15px;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    font-weight: 300px;
+    color: #000000;
+  }
+  
+  .phones  #servicestwo{
+    text-align: center;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 30px;
+    left: 0;
+    right: 0;
+    font-size: 25px;
+    font-weight: 300;
+    color: #008080;
+  }
+  
+  .phones #under {
+    position: absolute;
+    font-family: 'Roboto condensed', sans-serif;
+    top: 50px;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    color: #000000;
+  }
+  
+  /*First square of text*/
+  .textsquare {
+    position: absolute;
+    left: 5%;
+    top: 60px;
+    right: 5%;
+    height: 500px;
+  }
+  
+  /*Hides square with image in it*/
+  #littlesquare {
+    position: absolute;
+    display: none;
+  }  
+  
+  /*General seperating lines*/
+  hr {
+    color: #808080;
+    background-color: #808080;
+    width: 80%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    text-align: center;
+  }
+  
+  #lineone {
+    position: absolute;
+    top: 570px;
+    text-align: center;
+  }
+  
+  /*Section holding phone images + pricing. Bootstrap used here*/
+  .container {
+    height: 45px;
+    top: 500px;
+    left: 0;
+    right: 0;
+    overflow: visible;
+    position: absolute;
+    z-index: 5000;
+  }
+  
+  .phones #broke {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    top: 660px;
+    left: 5px;
+    right: 5px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #000000;
+  }
+
+  .thumbnail {
+    background-color: transparent;
+  }
+  
+  /*Reposition Column (Bootstrap)*/
+  #col1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 270px;
+  }
+  
+  /*All the p(number) from here on style the text inside the iphone image*/
+  .thumbnail #p1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -264px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -268px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -272px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -275px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -278px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;
+    width: 200px;
+  } 
+
+  .thumbnail #p7 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -282px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p8 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -286px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #p9 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -290px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+  
+  /*Reposition Second Column (Bootstrap)*/
+  #col2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 850px;
+  } 
+
+  /*All the s(number) from here on style the text inside the GalaxyS image*/
+  .thumbnail #s1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #s2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+
+  .thumbnail #s3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+
+  .thumbnail #s4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+
+  .thumbnail #s5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+  
+  /*Reposition Third Column (Bootstrap)*/
+  #col3 {
+    position: absolute;
+    top: 1430px;
+    left: 0;
+    right: 0;
+  }
+  
+  /*All the s(number) from here on style the text inside the GalaxyNote image*/
+  .thumbnail #n1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #n2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #n3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #n4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  } 
+
+  .thumbnail #n5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+
+  .thumbnail #n6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    top: -260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 100;
+    position: relative;
+    color: #FFFFFF;  
+    width: 200px;
+  }
+  
+  /*Styles text in .checkser*/
+  #please {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 790px;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    color: #008080;
+  }
+  
+  /*Makes "SERVICES" clickable inside #please*/
+  #insert {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: #008080;
+    text-decoration: none;
+  }
+  
+   #linetwo{
+    position: absolute;
+    top: 2920px;
+  }
+  
+  #linethree {
+    position: absolute;
+    top: 3480px;
+    text-align: center;
+  }
+  
+  #linefour {
+    position: absolute;
+    top: 3930px;
+  }
+  
+  #linefive{
+    position: absolute;
+    top: 4010px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 2px;
+  }
+  
+  /*30Day Guarantee Section*/
+  .theguaran {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3000px;
+  }
+  
+  /*Styles 30Day Guarantee header Text*/
+  #guaran { 
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    top: 10px;
+    text-align: center;
+  }
+
+  /*Text box for Guarantee section*/
+  .realguaran{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+  }
+  
+  /*Styles text in Guarantee Section*/
+  #moreguaran {
+    position: absolute;
+    top: 40px;
+    font-family: 'Roboto condensed', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    left: 5%;
+    right: 5%;
+  }
+  
+  /*Hides picture for Guarantee Section*/
+  #picforguar{
+    position: absolute;
+    display: none;
+  }
+
+  /*Safety Section*/
+  .safetysec {
+    position: absolute;
+    top: 3550px;
+    overflow: hidden;
+  }
+  
+  /*Styles Safety Section Header Text*/
+  #safefirst {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    top: 25px;
+    left: 2px;
+    right: 2px;
+    text-align: center;
+  }
+  
+  /*Section for Text in Safety Section*/
+  #safetybox {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+  }
+  
+  /*Styles Text in #safetybox*/
+  #safetext {
+    position: absolute;
+    font-family: 'Roboto condensed', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    top: -20px;
+    left: 2px;
+    right: 2px;
+  }
+  
+  /*Hides picture for Safety section*/
+  #safepic {
+    position: absolute;
+    display: none;
+  }
+  
+  /*Hides footer*/
+  .jumbotron2 {
+    display: none;
+  }
+
+}

@@ -81,7 +81,7 @@ It drops down the menu*/
   margin: 0;
   text-align: center;
   height: auto;
-  width: :100%;
+  width: 100%;
   display: inline-block;
   background-color: black;
   opacity: 1;
@@ -150,7 +150,6 @@ the Menu opsition Fixed on both esktop and Mobile*/
   font-family: 'Lato', sans-serif;
   font-size: 13px;
   transition: .5s;
-  font-weight: 5;
   text-decoration: none;
   padding: 20px 30px 23px;
   border-radius: 5px;
@@ -255,7 +254,7 @@ rows of 3*/
 
 /*Container box for Image. Makes it possible to 
 cut and crop image*/
-.thumbnail #iphonebox {
+.thumbnail .iphonebox {
   border-radius: 33.5px;
   display: block;
   height: 398px;
@@ -288,7 +287,7 @@ bigger image. (Height, Left, Bottom)*/
 
 /*Had to adjust image a tiny bit more.
 Also a bit bigger. (Height, Left, Bottom)*/
-.thumbnail #iphoneimother {       
+.thumbnail .iphoneimother {       
   height: 408px;
   width: 200px;
   position: absolute;
@@ -298,7 +297,7 @@ Also a bit bigger. (Height, Left, Bottom)*/
 }
 
 /*Styles Header Text All Sections*/
-.thumbnail #n {
+.thumbnail .n {
   font-family: 'Roboto', sans-serif;
   font-size: 29px;
   top: 0;
@@ -312,7 +311,7 @@ Also a bit bigger. (Height, Left, Bottom)*/
 } 
 
 /*All the p(Number) from here on style the text inside all the iPhone images*/
-.thumbnail #p1 {
+.thumbnail .p1 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   top: -260px;
@@ -324,7 +323,7 @@ Also a bit bigger. (Height, Left, Bottom)*/
   width: 200px;
 } 
 
-.thumbnail #p2 {
+.thumbnail .p2 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   top: -264px;
@@ -336,7 +335,7 @@ Also a bit bigger. (Height, Left, Bottom)*/
   width: 200px;
 } 
 
-.thumbnail #p3 {
+.thumbnail .p3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   top: -268px;
@@ -348,7 +347,7 @@ Also a bit bigger. (Height, Left, Bottom)*/
   width: 200px;
 } 
 
-.thumbnail #p4 {
+.thumbnail .p4 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   top: -272px;
@@ -360,7 +359,7 @@ Also a bit bigger. (Height, Left, Bottom)*/
   width: 200px;
 } 
 
-.thumbnail #p5 {
+.thumbnail .p5 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   top: -275px;
@@ -372,7 +371,7 @@ Also a bit bigger. (Height, Left, Bottom)*/
   width: 200px;
 } 
 
-.thumbnail #p6 {
+.thumbnail .p6 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   top: -278px;
@@ -384,7 +383,7 @@ Also a bit bigger. (Height, Left, Bottom)*/
   width: 200px;
 } 
 
-.thumbnail #p7 {
+.thumbnail .p7 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   top: -282px;
@@ -396,7 +395,7 @@ Also a bit bigger. (Height, Left, Bottom)*/
   width: 200px;
 } 
 
-.thumbnail #p8 {
+.thumbnail .p8 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   top: -286px;
@@ -408,7 +407,7 @@ Also a bit bigger. (Height, Left, Bottom)*/
   width: 200px;
 } 
 
-.thumbnail #p9 {
+.thumbnail .p9 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   top: -290px;
@@ -842,7 +841,7 @@ and switches to mobile styling.*/
     left: 0;
     right: 0;
     font-size: 30px;
-    font-weight: 300px;
+    font-weight: 300;
     color: #000000;
   }
   
@@ -864,7 +863,7 @@ and switches to mobile styling.*/
   
   /*Container box for Image. Makes it possible to 
   cut and crop image*/
-  .thumbnail #iphonebox {
+  .thumbnail .iphonebox {
     border-radius: 33.5px;
     display: block;
     height: 398px;
@@ -897,7 +896,7 @@ and switches to mobile styling.*/
 
   /*Had to adjust image a tiny bit more.
   Also a bit bigger. (Height, Left, Bottom)*/
-  .thumbnail #iphoneimother {
+  .thumbnail .iphoneimother {
     height: 408px;
     width: 200px;
     position: absolute;
@@ -923,8 +922,43 @@ and switches to mobile styling.*/
     text-align: center;		
   }
  
+   /*Used this to move the Second Image(Middle on Desktop) in Mobile site*/
+  #moba {				
+    position: absolute;				
+    left: 0;				
+    right: 0;				
+    top: 500px;				
+  }
+  
+  /*Used this to move the Third Image(Right on Desktop) in Mobile site*/
+  #mob2a {		
+    position: absolute;		
+    left: 0;		
+    right: 0;		
+    top: 1000px;		
+    text-align: center;		
+  }
+ 
+   /*Used this to move the Second Image(Middle on Desktop) in Mobile site*/
+  #mobb {				
+    position: absolute;				
+    left: 0;				
+    right: 0;				
+    top: 500px;				
+  }
+  
+  /*Used this to move the Third Image(Right on Desktop) in Mobile site*/
+  #mob2b {		
+    position: absolute;		
+    left: 0;		
+    right: 0;		
+    top: 1000px;		
+    text-align: center;		
+  }
+ 
+ 
   /*All the p(Number) from here on style the text inside all the iPhone images*/
-  .thumbnail #p1 {
+  .thumbnail .p1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     top: -300px;
@@ -936,7 +970,7 @@ and switches to mobile styling.*/
     width: 200px;
   } 
 
-  .thumbnail #p2 {
+  .thumbnail .p2 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     top: -304px;
@@ -948,7 +982,7 @@ and switches to mobile styling.*/
     width: 200px;
   } 
 
-  .thumbnail #p3 {
+  .thumbnail .p3 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     top: -308px;
@@ -960,7 +994,7 @@ and switches to mobile styling.*/
     width: 200px;
   } 
 
-  .thumbnail #p4 {
+  .thumbnail .p4 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     top: -312px;
@@ -972,7 +1006,7 @@ and switches to mobile styling.*/
     width: 200px;
   } 
 
-  .thumbnail #p5 {
+  .thumbnail .p5 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     top: -315px;
@@ -984,7 +1018,7 @@ and switches to mobile styling.*/
     width: 200px;
   } 
 
-  .thumbnail #p6 {
+  .thumbnail .p6 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     top: -318px;
@@ -996,7 +1030,7 @@ and switches to mobile styling.*/
     width: 200px;
   } 
 
-  .thumbnail #p7 {
+  .thumbnail .p7 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     top: -322px;
@@ -1008,7 +1042,7 @@ and switches to mobile styling.*/
     width: 200px;
   } 
 
-  .thumbnail #p8 {
+  .thumbnail .p8 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     top: -326px;
@@ -1020,7 +1054,7 @@ and switches to mobile styling.*/
     width: 200px;
   } 
 
-  .thumbnail #p9 {
+  .thumbnail .p9 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     top: -330px;

@@ -147,7 +147,6 @@ and Mobile*/
   font-family: 'Lato', sans-serif;
   font-size: 13px;
   transition: .5s;
-  font-weight: 5;
   text-decoration: none;
   padding: 20px 30px 23px;
   border-radius: 5px;
@@ -225,8 +224,8 @@ Contact info*/
   left: 0;
   right: 0;
   font-size: 22px;
-  font-weight: 50;
-  line-height: 150%;
+  font-weight: 100;
+  line-height: 100;
   color: #000000;
   text-align: justify;
 }
@@ -681,7 +680,7 @@ switches to mobile styling of site.*/
     left: 0;
     right: 0;
     font-size: 30px;
-    font-weight: 300px;
+    font-weight: 300;
     color: #000000;
   }
 
@@ -716,7 +715,7 @@ switches to mobile styling of site.*/
   }
   
   #beforeline {
-    position; absolute;
+    position: absolute;
     display: none;
     background-color: transparent;
     color: transparent;

@@ -1,3 +1,6 @@
+/*CLEAN CLEAN CLEAN*/
+
+
 /*Desktop version website height and width*/
 body {
   min-height: 2900px;
@@ -845,6 +848,57 @@ switches to mobile styling of site.*/
     left: 0;
     right: 0;
     text-align: center;
+  }
+  
+  /*Used this to move the Second Image(Middle on Desktop) in Mobile site*/
+  #mob {				
+    position: absolute;				
+    left: 0;				
+    right: 0;				
+    top: 500px;				
+  }
+  
+  /*Used this to move the Third Image(Right on Desktop) in Mobile site*/
+  #mob2 {		
+    position: absolute;		
+    left: 0;		
+    right: 0;		
+    top: 1000px;		
+    text-align: center;		
+  }
+ 
+   /*Used this to move the Second Image(Middle on Desktop) in Mobile site*/
+  #moba {				
+    position: absolute;				
+    left: 0;				
+    right: 0;				
+    top: 500px;				
+  }
+  
+  /*Used this to move the Third Image(Right on Desktop) in Mobile site*/
+  #mob2a {		
+    position: absolute;		
+    left: 0;		
+    right: 0;		
+    top: 1000px;		
+    text-align: center;		
+  }
+ 
+   /*Used this to move the Second Image(Middle on Desktop) in Mobile site*/
+  #mobb {				
+    position: absolute;				
+    left: 0;				
+    right: 0;				
+    top: 500px;				
+  }
+  
+  /*Used this to move the Third Image(Right on Desktop) in Mobile site*/
+  #mob2b {		
+    position: absolute;		
+    left: 0;		
+    right: 0;		
+    top: 1000px;		
+    text-align: center;		
   }
     
   /*Positions First Row in Mobile site*/

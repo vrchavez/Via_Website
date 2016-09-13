@@ -1,3 +1,6 @@
+/*CLEAN CLEAN CLEAN*/
+
+
 /*Desktop version website height and width*/
 body {
   min-height: 2900px;
@@ -267,7 +270,7 @@ cut and crop image*/
 }
 
 /*Actual image positioning and styling*/
-.thumbnail #iphoneim {
+.thumbnail .iphoneim {
   height: 400px;
   width: 200px;
   position: absolute;
@@ -276,7 +279,7 @@ cut and crop image*/
 
 /*Had to adjust image size. This is a bit 
 bigger image. (Height, Left, Bottom)*/
-.thumbnail #iphoneimbig {
+.thumbnail .iphoneimbig {
   height: 406px;
   width: 200px;
   position: absolute;
